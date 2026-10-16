@@ -1,0 +1,5 @@
+"""Question 14: Multiplication table."""
+
+# Independent solution for this lab-sheet question.
+n=int(input("Number: "))
+for i in range(1,11): print(f"{n} x {i} = {n*i}")
